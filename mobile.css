@@ -1,0 +1,120 @@
+/*==================================
+MEDIA QURIES  FOR SMALL MOBILE PHONES
+====================================*/
+
+
+@media screen and (max-width: 533px){
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 1rem;
+    }
+    
+    
+    main .container{
+        grid-template-columns: 0 auto 10vw;
+        gap: 1rem;
+    }
+    
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    nav .create {
+        margin-left: 1rem;
+
+    }
+
+    main .container {
+        display: grid;
+        grid-template-columns: 0 auto 10vw;
+        column-gap: 2rem;
+        position: relative;
+    }
+
+    main .left{
+        width: 5rem;
+        z-index: 5;
+    }
+
+    .left .sidebar .menu-item {
+        height: 3rem;
+        justify-content: left;
+        
+
+    }
+    
+    
+    .left .notifications-popup {
+        position: absolute;
+        left: -19.9rem;
+        width: -30rem;
+ 
+    }
+
+    .left .sidebar .active::before {
+        width: 0.3rem;
+    }
+
+
+    .left .notifications-popup::before { 
+        display: absolute;
+        height: .6rem;
+        left: calc(20rem - 0.7rem);
+    }
+    
+
+    
+.left .notifications-popup > div{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: .4rem;
+}
+
+.middle .stories .story{
+    padding: .7rem;
+    width: fit-content;
+}
+
+.middle .create-post{
+    width: 90%;
+}
+    
+.middle .feed .photo{
+    margin-left: 1rem;
+}
+    
+    .customize-theme .card{
+        width: 80vw; 
+    
+    }
+    
+
+    .customize-theme .choose-bg > div{
+        padding: .6rem;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        font-size: .7rem;
+        font-weight: bold;
+        border-radius: 0.4rem;
+        cursor: pointer;
+    }
+    .customize-theme .choose-bg{
+        display: flex;
+        justify-content: space-evenly;
+        gap: .5rem;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    
+    
+    
+    
+    
+    }
+    
